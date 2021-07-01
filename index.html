@@ -26,47 +26,79 @@
 
 <body>
     <nav class="nav">
-        <div>
-            <img src="assets/img/logo.svg" alt="logo">
+        <div class="nav__logo">
+           <!-- <img src="assets/img/logo.svg" alt="logo"> -->
         </div>
-        <div>
-            <ul>
-                <li>
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__list-item">
                     <a href="#">Acerca de</a>
                 </li>
-                <li>
+                <li class="nav__list-item">
                     <a href="#">Cursos</a>
                 </li>
-                <li>
+                <li class="nav__list-item">
                     <a href="#">Precios</a>
                 </li>
             </ul>
             <label for="menu"><i class="fa fa-bars"></i></label>
         </div>
     </nav>
-    <header>
-        <div>
+
+    <header class="header">
+        <div class="container header__img">
             <img src="assets/img/desarrolloweb2021t.svg" alt="desarrollo-web">
         </div>
     </header>
-    <section>
-        <div>
-            <img src="assets/img/html-y-cssb-.jpg" alt="html-css">
-            <h2>HTML y CSS para principiantes.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae, dolore sunt libero minus odit corporis? Nesciunt deleniti eveniet ducimus voluptatum excepturi sequi mollitia nobis quia veniam accusamus. Ullam, provident!</p>
-            <h3>Instructor: Manuel Gonzalez</p>
+
+    <section class="section-art">
+        <div class="container">
+            <div class="section-art__img">
+                <img src="assets/img/html-y-cssb-.jpg" alt="html-css">
+            </div>
+            <div class="section-art__title">
+                <h2>HTML y CSS para principiantes.</h2>
+            </div>
+            <div class="section-art__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae, dolore sunt libero minus odit corporis? Nesciunt deleniti eveniet ducimus voluptatum excepturi sequi mollitia nobis quia veniam accusamus. Ullam, provident!</p>
+            </div>
+            <div class="section-art__author">
+                <h3>Instructor: Manuel Gonzalez</p>
+            </div>
+            <div class="section-art__icons">
+                <i class="far fa-thumbs-up"></i>
+                <i class="far fa-comments"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
         </div>
     </section>
-    <section>
-        <div>
-            <img src="assets/img/sass.png" alt="sass">
-            <h2>Estilos con SASS.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae, dolore sunt libero minus odit corporis? Nesciunt deleniti eveniet ducimus voluptatum excepturi sequi mollitia nobis quia veniam accusamus. Ullam, provident!</p>
-            <h3>Instructor: Manuel Gonzalez</p>
+
+    <section class="section-art">
+        <div class="container">
+            <div class="section-art__img">
+                <img src="assets/img/sass.png" alt="sass">
+            </div>
+            <div class="section-art__title">
+                <h2>Estilos con SASS.</h2>
+            </div>
+            <div class="section-art__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae, dolore sunt libero minus odit corporis? Nesciunt deleniti eveniet ducimus voluptatum excepturi sequi mollitia nobis quia veniam accusamus. Ullam, provident!</p>
+            </div>
+            <div class="section-art__author">
+                <h3>Instructor: Manuel Gonzalez</p>
+            </div>
+            <div class="section-art__icons">
+                <i class="far fa-thumbs-up"></i>
+                <i class="far fa-comments"></i>
+                <i class="far fa-eye"></i>
+                <i class="fas fa-share-alt"></i>
+            </div>
         </div>
     </section>
-    <section>
-        <div>
+
+    <section class="section-info">
+        <div class="container">
             <img src="assets/img/web-development.png" alt="web-development">
             <h2>Cursos 2020 Ltda.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos beatae, dolore sunt libero minus odit corporis? Nesciunt deleniti eveniet ducimus voluptatum excepturi sequi mollitia nobis quia veniam accusamus. Ullam, provident!</p>
@@ -106,6 +138,7 @@
             <img src="assets/img/web.svg" alt="icon"> 
         </div>
     </section>
+    
     <footer>
         <div>
             <p>Todos los derechos reservados</p>
@@ -122,6 +155,13 @@
                 <button>Enviar</button>
         </div>
     </footer>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-2">2</div>
+        </div>
+    </div>
+
 
 
 

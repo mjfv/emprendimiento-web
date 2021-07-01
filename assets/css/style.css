@@ -24,4 +24,175 @@
   }
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 576px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+@media (min-width: 768px) {
+  .col-md-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-1 {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-12 {
+    grid-column: span 12;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-11 {
+    grid-column: span 11;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-10 {
+    grid-column: span 10;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-9 {
+    grid-column: span 9;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-8 {
+    grid-column: span 8;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-7 {
+    grid-column: span 7;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-6 {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-5 {
+    grid-column: span 5;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-4 {
+    grid-column: span 4;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-2 {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-1 {
+    grid-column: span 1;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

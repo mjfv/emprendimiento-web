@@ -1,0 +1,146 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include response-to('device-xsmall') {
+        width: 550px;
+    }
+    @include response-to('device-small') {
+        width: 550px;
+    }
+    @include response-to('device-medium') {
+        width: 750px;
+    }
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+//medium
+
+.col-md-12 {
+    @include response-to('device-medium') {
+        grid-column: span 12;
+    }
+}
+.col-md-11 {
+    @include response-to('device-medium') {
+        grid-column: span 11;
+    }
+}
+.col-md-10 {
+    @include response-to('device-medium') {
+        grid-column: span 10;
+    }
+}
+.col-md-9 {
+    @include response-to('device-medium') {
+        grid-column: span 9
+    }
+}
+.col-md-8 {
+    @include response-to('device-medium') {
+        grid-column: span 8;
+    }
+}
+.col-md-7 {
+    @include response-to('device-medium') {
+        grid-column: span 7;
+    }
+}
+.col-md-6 {
+    @include response-to('device-medium') {
+        grid-column: span 6;
+    }
+}
+.col-md-5 {
+    @include response-to('device-medium') {
+        grid-column: span 5;
+    }
+}
+.col-md-4 {
+    @include response-to('device-medium') {
+        grid-column: span 4;
+    }
+}
+.col-md-3 {
+    @include response-to('device-medium') {
+        grid-column: span 3;
+    }
+}
+.col-md-2 {
+    @include response-to('device-medium') {
+        grid-column: span 2;
+    }
+}
+.col-md-1 {
+    @include response-to('device-medium') {
+        grid-column: span 1;
+    }
+}
+
+//xsmall
+.col-12 {
+    @include response-to('device-xsmall') {
+        grid-column: span 12;
+    }
+}
+.col-11 {
+    @include response-to('device-xsmall') {
+        grid-column: span 11;
+    }
+}
+.col-10 {
+    @include response-to('device-xsmall') {
+        grid-column: span 10;
+    }
+}
+.col-9 {
+    @include response-to('device-xsmall') {
+        grid-column: span 9
+    }
+}
+.col-8 {
+    @include response-to('device-xsmall') {
+        grid-column: span 8;
+    }
+}
+.col-7 {
+    @include response-to('device-xsmall') {
+        grid-column: span 7;
+    }
+}
+.col-6 {
+    @include response-to('device-xsmall') {
+        grid-column: span 6;
+    }
+}
+.col-5 {
+    @include response-to('device-xsmall') {
+        grid-column: span 5;
+    }
+}
+.col-4 {
+    @include response-to('device-xsmall') {
+        grid-column: span 4;
+    }
+}
+.col-3 {
+    @include response-to('device-xsmall') {
+        grid-column: span 3;
+    }
+}
+.col-2 {
+    @include response-to('device-xsmall') {
+        grid-column: span 2;
+    }
+}
+.col-1 {
+    @include response-to('device-xsmall') {
+        grid-column: span 1;
+    }
+}
+

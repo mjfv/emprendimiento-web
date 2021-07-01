@@ -1,0 +1,55 @@
+//Color
+$white: #FFFFFF;
+
+$black: #000000;
+$sable: #060606;
+$charcoal: #2E1503;
+
+$tangerine: #FFAF6D;
+$orange: #FFA500;
+
+//General colors
+$prim-white: $white;
+
+$prim-black: $black;
+$sec-black: $sable;
+$ter-black: $charcoal;
+
+$prim-orange: $tangerine;
+$sec-orange: $orange;
+
+//Font Family
+$ubuntu: 'Ubuntu', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+//General Font
+$prim-font-family: $ubuntu;
+$sec-font-family: $poppins;
+
+//Font Sizes
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+//Font Weight
+$fweight-regular: 400;
+$fweight-bold: 700;
+
+//Font style
+$regular: normal;
+$bold: bold;
+
+//Device variables
+$map-breakpoints: (
+  'device-xsmall': (max-width: 576px),
+  'device-small': (min-width: 576px),
+  'device-medium': (min-width: 768px),
+  'device-large': (min-width: 992px),
+  'device-xlarge': (min-width: 1200px),
+);
